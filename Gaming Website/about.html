@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="container">
+        <span class="logo">Logo</span>
+        <nav>
+            <ul>
+                <li ><a href="/">Home</a></li>
+                <li class="active"><a href="/about.html">Create Website</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">News</a></li>
+                <li class="btn"><a href="/contacts.html">Contacts</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-about container">
+        <div class="info">
+            <h2>Веб-серверді құрудың қадамдары</h2>
+            <p> Linux жүйесінде Apache орнату:<br>sudo apt update<br>
+                sudo apt install apache2
+                </p>
+                <p>Windows жүйесінде XAMPP немесе WAMP орнатуға болады.</p>
+        </div>
+        <img src="/img/spiderman.png" alt="">
+    </div>
+
+<div class="container work">
+    <h2> Серверді баптау</h2>
+    <div class="blocks"> 
+        <div class="block">
+            <span class="badge purple">1 қадам</span>
+            <h3> Конфигурация файлдарын баптау:</h3>
+            <p>Веб-серверді баптау үшін конфигурация файлдарын өзгерту керек (мысалы, Apache үшін apache2.conf немесе httpd.conf).</p>
+        </div>
+        <div class="block">
+            <span class="badge brown">2 қадам</span>
+            <h3> Веб-сайтты орналастыру:</h3>
+            <p>LВеб-сайттың ресурстарын веб-сервердің каталогына орналастырыңыз.
+
+                Apache үшін әдетте бұл каталог: /var/www/html/.</p>
+        </div>
+        <div class="block">
+            <span class="badge green">Серверді іске қосу</span>
+            <h3>Веб-серверді іске қосу:</h3>
+            <p> 
+
+                Apache серверін іске қосу:<br>
+                sudo systemctl start apache2
+
+            </p>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <footer>
+        <div class="blocks container">
+            <div >
+                <span class="logo">logo</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+    
+    
+        <div>
+            <h4>About us</h4>
+            <ul>
+                 <li>Zeux</li>
+                 <li>Portfolio</li>
+                 <li>Careers</li>
+                 <li>Contact us</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contact us</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <p>+7 778 302 96 37</p>
+    
+        </div>
+        <div class="social-media">
+            <img src="/img/facebook.png" alt="">
+            <img src="/img/insta.png" alt="">
+            <img src="/img/twitter.png" alt="">
+            <img src="/img/insta2.png" alt="">
+        </div>
+    
+        </div>
+        <hr>
+        <p>Copyright ® Atyrau,2025.Барлық құқықтар сақталған.</p>
+    </footer>
+    
+</body>
+</html>

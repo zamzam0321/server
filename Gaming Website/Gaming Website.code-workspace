@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "Gaming Website",
+			"path": "../../../../Desktop/Gaming Website"
+		},
+		{
+			"name": "img",
+			"path": "img"
+		},
+		{
+			"name": "paris2024",
+			"path": "../../../../Desktop/paris2024"
+		},
+		{
+			"name": "Starbacks WEBSITE",
+			"path": "../../../../Desktop/Starbacks WEBSITE"
+		},
+		{
+			"name": "sarqyt-image",
+			"path": "../../Sarqyt web/sarqyt-image"
+		},
+		{
+			"name": "Sarqyt web",
+			"path": "../../../../Desktop/Sarqyt web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Gaming Website"
+	}
+}
